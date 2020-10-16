@@ -26,14 +26,17 @@ function submit(event){
       }else{console.log("not found");}
     });
   } else{
-    var data=JSON.stringify({
+    var data={
       username:user,
       password:password
-    });
-    var user_data =JSON.parse(localStorage.getItem("users") || '[]');
+    };
+    // var user_data =[JSON.parse(localStorage.getItem("users")) || ""];
+    var user_data=JSON.parse(localStorage.getItem("users") || "[]");
     user_data.push(data);
     localStorage.setItem("users",JSON.stringify(user_data));
     alert("submitted");
+    setuser("");
+    setpassword("");
   }
 }
   return <div className="input">
