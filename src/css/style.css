@@ -1,0 +1,95 @@
+body {
+  background: #f0f2f5;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.adjust{
+    margin: 0 auto;
+    padding: 80px 0;
+    position: relative;
+    width: 980px;
+}
+.c1{
+  margin-top: 40px;
+  padding-top: 57px;
+  padding-right: 10px;
+}
+.c2{
+  margin: 0 0px 40px 50px;
+}
+.logo {
+  height: 105px;
+  width: 301px;
+  margin-left: -28px;
+  margin-bottom: -8px;
+}
+.head{
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.extra{
+  margin: 20px auto 0;
+  justify-content: center;
+  text-align: center;
+}
+.extra p{
+  font-size: 14px;
+}
+.input {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 8px 0 28px;
+  width: 400px;
+}
+
+input, textarea {
+  font-size: 17px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 0.5mm solid rgba(0, 0, 0, .1);
+  margin: 10px 15px 0;
+  width: -webkit-fill-available;
+}
+input:focus, textarea:focus {
+  font-size: 17px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 0.3mm solid rgba(24, 119, 242, 0.7);
+  box-shadow: 0 0 2px rgba(24, 119, 242, 107);
+  margin: 10px 15px 0;
+  width: -webkit-fill-available;
+  outline: none !important;
+}
+button{
+  margin: 10px 15px 0;
+  width: -webkit-fill-available;
+}
+.forgot_passsword{
+justify-content: center;
+text-align: center;
+margin: 15px 0 0;
+}
+.Create{
+  border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 200px;
+}
+.new_user{
+  justify-content: center;
+  text-align: center;
+}
+hr{
+  width: 370px;
+}
+a{
+  font-size: 14px;
+}
