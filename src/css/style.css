@@ -67,7 +67,7 @@ input:focus, textarea:focus {
   width: -webkit-fill-available;
   outline: none !important;
 }
-button{
+.butt{
   margin: 10px 15px 0;
   width: -webkit-fill-available;
 }
