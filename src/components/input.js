@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useHistory,Link } from "react-router-dom";
+import { useHistory} from "react-router-dom";
 import Swal from 'sweetalert2';
 
 function Input(){
