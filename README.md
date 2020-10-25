@@ -24,7 +24,7 @@ npm start
 
 - You can only run the app if only the server is running in your localhost ie in your PC
 - Make sure your devices are connected to a same network ie the network your Pc is connected to.
-- Then open up your browser and type _http://192.168.43.80:3000_
+- Then open up your browser and type _http://[your_ip]:3000_
 
 ---
 ## Closing the app
